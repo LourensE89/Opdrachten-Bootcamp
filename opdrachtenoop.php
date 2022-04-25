@@ -36,7 +36,7 @@ echo "<br>";
 echo "<br>";
 
 
-class calculator {
+class Calculator {
     public $numerouno, $numerodos;
     function add() {
       return $this->numerouno + $this->numerodos;
@@ -52,9 +52,9 @@ class calculator {
     }
   }
   
-  $solution = new calculator();
-  $solution->numerouno = 10;
-  $solution->numerodos = 5;
+  $calc = new Calculator();
+  $calc->numerouno = 10;
+  $calc->numerodos = 5;
   
   echo $solution->add();
   echo "<br>";
