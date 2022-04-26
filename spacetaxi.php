@@ -106,7 +106,7 @@ $rit5 -> eindtijd = ((23*100)+50);
 $rit5 -> begintijd = ((20*100)+30);
 $rit5 -> kilometers = 285607;
 $rit5 -> datum = "Boogie Friday the 5th of Buni, Celebration Day of King Booogiee Woogie the XIV";
-$rit5 -> tax = 5;
+$rit5 -> tax = 10;
 echo "<br>";echo "<br>";
 echo "<br>";echo "<br>";
 echo $rit5 -> rittrip();
